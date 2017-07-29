@@ -33,7 +33,7 @@ section.main-section{
   padding-bottom: 20px;
 }
 section.contact-bg{
-  background: url(assets/contactBg.png) no-repeat;
+  background: url(assets/img/contactBg.png) no-repeat;
   background-position: top right;
   background-size: 58%;
   background-attachment: fixed;
@@ -229,10 +229,10 @@ section.contact-bg{
 }
 .btn-click:hover{
   color: #000 !important;
-  background: url(assets/GreenBTN.png) -250px 0 no-repeat;
+  background: url(assets/img/GreenBTN.png) -250px 0 no-repeat;
 }
 .btn-click{
-  background: url(assets/GreenBTN.png) 0 0;
+  background: url(assets/img/GreenBTN.png) 0 0;
   color: #108bc9;
   border-radius: 0px;
   margin-top: 20px;
@@ -274,7 +274,7 @@ select{
   margin-bottom: 40px;
 }
 .videos-section{
-  background: url(assets/FreeStyleBG.png) no-repeat;
+  background: url(assets/img/FreeStyleBG.png) no-repeat;
   background-size: cover;
   background-position: right;
   /*background-attachment: fixed;*/
@@ -406,7 +406,7 @@ select{
 }
 
 .bg-step-one{
-  background: url(assets/StepsBg.png);
+  background: url(assets/img/StepsBg.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: right;
@@ -455,7 +455,7 @@ select{
   margin-top: 70px;
 }
 .section-create .add-bg{
-  background: url(assets/step.png);
+  background: url(assets/img/step.png);
   background-size: cover;
   background-position: top left;
   background-repeat: no-repeat;
@@ -470,7 +470,7 @@ select{
 footer{
   height: 300px;
   padding-top: 150px;
-  background: url(assets/footer.png);
+  background: url(assets/img/footer.png);
   background-repeat: no-repeat;
   background-position: right;
   background-size: cover;
@@ -507,7 +507,7 @@ div.footer-links{
   margin-right: 5px;
 }
 .final-step{
-  background: url(assets/step.png);
+  background: url(assets/img/step.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: right;
@@ -540,7 +540,7 @@ div.footer-links{
   padding: 80px 0px 300px;
   position: relative;
   z-index: 1;
-  background: url(assets/TriangleBG.png) no-repeat;
+  background: url(assets/img/TriangleBG.png) no-repeat;
   background-size: 25%;
   background-position: top right;
   /*padding: 80px 0px 300px;
@@ -618,7 +618,7 @@ div.footer-links{
 
 /*AVAILABLE POSITIONS VIEW*/
 .position-bg{
-  background: url(assets/positionBG.png);
+  background: url(assets/img/positionBG.png);
   background-size: 65%!important;
   background-repeat: no-repeat;
   background-position: top right;
@@ -903,11 +903,11 @@ div.position-side-strip h4{
   margin-left: 100px;
 }
 div.position-side-strip:nth-child(odd){
-  background: url('assets/strip1.png') no-repeat;
+  background: url('assets/img/strip1.png') no-repeat;
   background-size: cover;
 }
 div.position-side-strip:nth-child(even){
-  background: url('assets/strip2.png') no-repeat;
+  background: url('assets/img/strip2.png') no-repeat;
   background-size: cover;
 }
 .position-title{

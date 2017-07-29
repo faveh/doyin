@@ -11,13 +11,7 @@ import {
   CreateSectionComponent
 } from './components';
 
-import { HeaderComponent, FooterComponent } from '../shared';
 
-// import { HomeComponentRoutingModule } from './home-component-routing.module';
-// import { SliderFormComponent } from './slider-form/slider-form.component';
-// import { VideosSectionComponent } from './videos-section/videos-section.component';
-// import { SkewSectionComponent } from './skew-section/skew-section.component';
-// import { CreateSectionComponent } from './create-section/create-section.component';
 
 @NgModule({
   imports: [
@@ -30,8 +24,7 @@ import { HeaderComponent, FooterComponent } from '../shared';
     VideosSectionComponent,
     SkewSectionComponent,
     CreateSectionComponent,
-    HeaderComponent,
-    FooterComponent
+
     ]
 })
 export class HomeComponentModule { }

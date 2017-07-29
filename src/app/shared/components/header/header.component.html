@@ -3,7 +3,7 @@
   <!-- Brand and toggle get grouped for better mobile display -->
   <div class="container">
     <ul class="nav navbar-nav navbar-right my-nav">
-      <li><a href="contact_us.html" class="add-border remove-padding">Contact Us</a></li>
+      <li><a [routerLink]="['/contact']" class="add-border remove-padding">Contact Us</a></li>
       <li><a href="#" class="remove-padding">Languages: English</a></li>
       <li>
         <select class="select-mini-nav">
@@ -26,7 +26,7 @@
         <span class="icon-bar"></span>
       </button>
       <a class="navbar-brand" href="/">
-        <img class="header-image" src="assets/Logo.png" />
+        <img class="header-image" src="assets/img/Logo.png" />
         <h4 class="sub-header">SHOW YOUR SKILLS, TELL YOUR STORY.</h4>
       </a>
     </div>
@@ -35,17 +35,17 @@
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1" style="margin-top:40px;">
       <ul class="nav navbar-nav navbar-right my-nav" style="margin-top: -10px; margin-left: 51px;">
         <li>
-          <img src="assets/avatar.jpg" class="navbar-img" />
+          <img src="assets/img/avatar.jpg" class="navbar-img" />
           <p class="header-p">Welcome, <br /> John Doe</p>
         </li>
       </ul>
 
       <ul class="nav navbar-nav navbar-right my-nav">
-        <li><a href="freestyle.html" class="add-border remove-padding">Freestyle</a></li>
-        <li><a href="search_player.html" class="add-border remove-padding">Players</a></li>
-        <li><a href="search_coach.html" class="add-border remove-padding">Coaches</a></li>
-        <li><a href="search_scout.html" class="add-border remove-padding">Scouts</a></li>
-        <li><a href="position.html" class="remove-padding">Available Position</a></li>
+        <li><a [routerLink]="['/freestyle']" class="add-border remove-padding">Freestyle</a></li>
+        <li><a [routerLink]="['/players']" class="add-border remove-padding">Players</a></li>
+        <li><a [routerLink]="['/coaches']" class="add-border remove-padding">Coaches</a></li>
+        <li><a [routerLink]="['/scouts']" class="add-border remove-padding">Scouts</a></li>
+        <li><a [routerLink]="['/position']" class="remove-padding">Available Position</a></li>
       </ul>
     </div><!-- /.navbar-collapse -->
   </div>

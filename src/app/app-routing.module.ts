@@ -2,8 +2,8 @@ import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
 const routes: Routes = [
-  { path: '', loadChildren: './home-component/home-component.module#HomeComponentModule' },
-  // { path: '**', redirectTo: 'not-found' }
+  { path: '', loadChildren: './mysportale/mysportale.module#MysportaleModule' },
+  { path: 'contact', loadChildren: './contact/contact.module#ContactModule' },
 ];
 
 @NgModule({
